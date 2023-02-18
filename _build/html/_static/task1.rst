@@ -1,4 +1,4 @@
-.. _task1-label:
+.. _static/task1-label:
 
 Task 1 - Plant Data Annotation
 ==============================
@@ -13,32 +13,12 @@ This first task should be performed at the starting point of usage of this tool 
 Annotating biological data using the MapMan Ontology
 ----------------------------------------------------
 
-1. Open the `Mercator4 Webtool <https://plabipd.de/portal/mercator4>`_.
-2. Select **Sequence Type** → **Protein** (*default*).
-3. In **Upload FASTA file**, click **Choose File** and select the ``corkoak_proteins.faa`` file.
-
-.. figure:: images/fasta_example.png
-   :scale: 100 %
-
-   ``corkoak_proteins.faa`` - example of a Mercator4 Input FASTA file
-
-4. Fill **Job name** with ``corkoak``.
-5. Click **Submit Job**.
-6. Upon job conclusion, click **Mapping file for MapMan** and **Annotated FASTA file** links to download the respective files.
-7. Move the downloaded files into the ``corkoakdata`` folder.
-8. Finally, manually extract both .rar files (e.g. with WinRar or WinZip).
-
-The Mercator4 output files should look like the following:
-
-* ``corkoak.fa``
-* ``corkoak.results``
-
-**Video Guide:**
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/KWb1mpFiuOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-|
+1. Open the Mercator4 Webtool (insert mercator link here)
+2. Select the **Sequence Type** as Protein
+3. In **Upload FASTA file**, click **Choose File** - corkoak_proteins.faa
+4. Fill **Job name** with corkoak_proteins_mercator (maybe get this name into a easy to copy-paste box)
+5. **Submit Job**
+6. Upon job conclusion, download both the **Mapping file for MapMan** and **Annotated FASTA file**
+7. Finally, extract both .rar files (e.g. with WinRar or WinZip)
 
 With the plant annotated data, we are ready to move into :ref:`task2-label`.

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 3 - Cytoscape into DiNaR Network Visualization &mdash; Cork Oak Use Case  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mercator4 Webtool" href="tool1_mercator.html" />
+    <link rel="prev" title="Task 2 - Metabolic Pathway Visualization" href="task2.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Cork Oak Use Case
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Tasks</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="task1.html">Task 1 - Plant Data Annotation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="task2.html">Task 2 - Metabolic Pathway Visualization</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Task 3 - Cytoscape into DiNaR Network Visualization</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tool1_mercator.html">Mercator4 Webtool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tool2_mapman.html">MapMan Desktop App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Cork Oak Use Case</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Task 3 - Cytoscape into DiNaR Network Visualization</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/source/task3.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="task-3-cytoscape-into-dinar-network-visualization">
+<span id="task3-label"></span><h1>Task 3 - Cytoscape into DiNaR Network Visualization<a class="headerlink" href="#task-3-cytoscape-into-dinar-network-visualization" title="Permalink to this headline"></a></h1>
+<p>DiNaR is a tool used to obtain a dynamic representation of a biological data network over multiple timepoints or different conditions.</p>
+<section id="obtaining-a-dynamic-network-representation-from-a-cork-oak-co-expression-network">
+<h2>Obtaining a dynamic network representation from a cork oak co-expression network<a class="headerlink" href="#obtaining-a-dynamic-network-representation-from-a-cork-oak-co-expression-network" title="Permalink to this headline"></a></h2>
+<ol class="arabic">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">Cytoscape_DiNaR.R</span></code> from the command line</p>
+<div class="highlight-R notranslate"><div class="highlight"><pre><span></span><span class="c1">#Inside the directory of the downloaded cork oak data (should also contain ``Cytoscape_DiNaR.R`` )</span>
+<span class="n">Rscript</span> <span class="n">.</span><span class="o">/</span><span class="n">Cytoscape_DiNaR_link.R</span> <span class="o">-</span><span class="n">n</span> <span class="n">.</span><span class="o">/</span><span class="n">corkoak_node.csv</span> <span class="o">-</span><span class="n">e</span> <span class="n">.</span><span class="o">/</span><span class="n">corkoak_edge.csv</span> <span class="o">-</span><span class="n">a</span> <span class="n">.</span><span class="o">/</span><span class="n">corkoak_mercator.results</span> <span class="o">-</span><span class="n">o</span> <span class="n">corkoak_ready_to_process</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>This will process a Cytoscape network to firstly import into <a class="reference external" href="https://nib-si.shinyapps.io/pre-processing/">DiNaR preprocessing subApp</a> and then in <a class="reference external" href="https://nib-si.shinyapps.io/DiNAR/">DiNaR App</a>. If the user wishes to load a network (node and edge tables) into DiNaR with different origin than Cytoscape, the input files should have the structure specified <a class="reference external" href="https://nib-si.shinyapps.io/pre-processing/">here</a>.</p>
+<ol class="arabic simple" start="2">
+<li><p>Open the <a class="reference external" href="https://nib-si.shinyapps.io/pre-processing/">DiNaR preprocessing subApp</a> and select the <strong>tables</strong> option tab (at the top)</p></li>
+<li><p>With the Tab default Separator, click <strong>Choose Nodes File</strong> and select <code class="docutils literal notranslate"><span class="pre">node_corkoak_ready_to_process.txt</span></code></p></li>
+<li><p>Click <strong>Choose Edges File</strong> and select <code class="docutils literal notranslate"><span class="pre">edge_corkoak_ready_to_process.txt</span></code></p></li>
+<li><p>Fill the <strong>Type in desired network name:</strong> with <code class="docutils literal notranslate"><span class="pre">corkoak_processed</span></code></p></li>
+<li><p>Click download (at the bottom) <strong>BOTH</strong> in the Nodes tab, and in the Edges tab (both next to Plot), to ensure both the node and edge tables are downloaded</p></li>
+</ol>
+<p><strong>Video guide for `DiNaR preprocessing subApp &lt;https://nib-si.shinyapps.io/pre-processing/&gt;`_:</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWb1mpFiuOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ol class="arabic simple" start="7">
+<li><p>Go to the <a class="reference external" href="https://nib-si.shinyapps.io/DiNAR/">DiNaR App</a></p></li>
+<li><p>In <strong>select network</strong>, choose <strong>Custom network</strong></p></li>
+<li><p>In <strong>Upload nodes table</strong>, select the <code class="docutils literal notranslate"><span class="pre">processed_node</span></code> file</p></li>
+<li><p>In <strong>Upload edges table</strong>, select the <code class="docutils literal notranslate"><span class="pre">processed_edge</span></code> file</p></li>
+<li><p>Download the animation with - get final .html output</p></li>
+</ol>
+<p><strong>Video guide for `DiNaR App &lt;https://nib-si.shinyapps.io/DiNAR/&gt;`_:</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWb1mpFiuOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Congratulations, this task concludes the present use-case.
+Further questions or recomendations can be submitted to: <a class="reference external" href="mailto:hugo&#46;miguelr99&#37;&#52;&#48;gmail&#46;com">mailto:hugo<span>&#46;</span>miguelr99<span>&#64;</span>gmail<span>&#46;</span>com</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="task2.html" class="btn btn-neutral float-left" title="Task 2 - Metabolic Pathway Visualization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tool1_mercator.html" class="btn btn-neutral float-right" title="Mercator4 Webtool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Hugo Rodrigues.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
