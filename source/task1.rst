@@ -17,7 +17,7 @@ Annotating biological data using the MapMan Ontology
 2. Select **Sequence Type** → **Protein** (*default*).
 3. In **Upload FASTA file**, click **Choose File** and select the ``corkoak_proteins.faa`` file.
 
-.. figure:: images/mercator_input.png
+.. figure:: images/mercator_input.PNG
    :scale: 100 %
 
    ``corkoak_proteins.faa`` - example of Mercator4 compatible Input (*FASTA File*)
