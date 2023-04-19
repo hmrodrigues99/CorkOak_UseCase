@@ -37,7 +37,7 @@ The first step to follow the present use-case is to download data obtained from 
    #If unzip fails, either install it using ``sudo apt install unzip`` or unzip the ``main.zip`` file manually
    cd CorkOak_UseCase_Data-main
 
-**Windows users with R:**
+**Windows R Users:**
 
 .. code-block:: R
 
@@ -49,19 +49,25 @@ The first step to follow the present use-case is to download data obtained from 
    if (!require("utils")) install.packages("utils")
    library("utils")
 
-   #Download cork oak data from github
+   #Download the cork oak data folder from github
    download.file(https://github.com/hmrodrigues99/CorkOak_UseCase_Data/archive/main.zip)
 
    #Unzip the downloaded file and move into it's directory
    unzip(corkoak_data.zip)
    setwd("CorkOak_UseCase_Data-main")
 
-**Windows users with Python (3.7+):**
+**Windows Python (3.7+) Users:**
 
 .. code-block:: python
 
-   #Installing requests package
-   todo
+   #Within the Command line, install the requests package
+   pip install requests
+
+   #Now in a Python IDE, download the cork oak data folder [replace "PathToFile" with a target directory (e.g. "C://Users//hrodrigues//Data//")]
+   import requests
+   file = requests.get("https://github.com/hmrodrigues99/CorkOak_UseCase_Data/archive/main.zip")
+   open('PathToFile//corkoakdata.zip', 'wb').write(file.content)
+   
 
 Cork Oak Data Contents:
 -----------------------
@@ -94,6 +100,7 @@ After data download, it's all set to start performing the proposed tasks, starti
    source/task1
    source/task2
    source/task3
+   source/task4
 
 .. toctree::
    :maxdepth: 2
@@ -102,6 +109,7 @@ After data download, it's all set to start performing the proposed tasks, starti
 
    source/tool1_mercator
    source/tool2_mapman
+   source/tool3_dinar
 
 .. toctree::
    :maxdepth: 2
