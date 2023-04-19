@@ -17,7 +17,7 @@ Annotating biological data using the MapMan Ontology
 2. Select **Sequence Type** → **Protein** (*default*).
 3. In **Upload FASTA file**, click **Choose File** and select the ``corkoak_proteins.faa`` file.
 
-.. figure:: images/mercator_input.PNG
+.. figure:: images/mercator_input_green.png
    :scale: 100 %
 
    ``corkoak_proteins.faa`` - example of Mercator4 compatible Input (*FASTA File*)
@@ -29,7 +29,7 @@ Annotating biological data using the MapMan Ontology
 8. Finally, manually extract both .rar files (e.g. with WinRar or WinZip).
 
 Mercator4 Outputs
-_________________
+^^^^^^^^^^^^^^^^^
 
 * | **Output 1** is the same Input FASTA file with the addition of the retrieved annotations in the respective gene/protein headers.
   | In the example shown, the protein with ID="CFP56_25010" is annotated as a NDH lumen subcomplex L component (PnsL1), a intervenient protein in photosynthesis.

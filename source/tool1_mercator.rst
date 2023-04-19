@@ -3,19 +3,16 @@
 Mercator4 Webtool
 =================
 
-The `mercator4 <https://plabipd.de/portal/mercator4>`_ webtool is a plant data annotation tool. For additional information regarding the use of mercator, access `about Mercator <https://plabipd.de/portal/mer>`_.
+The `mercator4 <https://www.plabipd.de/mercator_main.html>`_ webtool is a online tool to assign functional annotations to protein sequences of land plants. The **Mercator4 - about** section describes in greater detail the use and purpose of this tool, which can be accessed under the **online tools - protein annotation** section. Additionaly, this section also provides a FASTA validator tool which can be used prior to job submission in Mercator4 to verify if the user input FASTA is compatible with Mercator4. Lastly, after obtaining the job results, these can be used in the enrichment analysis tool to check for enriched MapMan BINs in a annotated gene/protein list of interest.
 
 Mercator4 Result Visualization Tools
 ------------------------------------
 
-After a job is concluded, the user as access to the following Tabs - [ **Job submission** | **Result tree viewer** | **Result Heatmap viewer** ]
+The output files (``corkoak.results`` and ``corkoak.faa``) which are used throughout tasks 2 and 3 of this use case represent Mercator4 main outputs.
+Nevertheless, upon job conclusion, the user can further explore the following **Result Tabs** within Mercator4 for additional information:
 
-The **Job submission** tab shows in which MapMan top Bins the data is annotated into.
-The cork oak data provided is all annotated in the Photosynthesis MapMan Bin. (inser image here)
+* **Job submission** - Summary of which MapMan Bins the data was annotated in.
 
-The **Result tree viewer** tab allows comparison between the number of genes/protein which occupy each Bin for the organism submitted by the user and reference species present in the tree.
-It can serve as basis to understant if the user input species has more or less genes/proteins annotated in a specific process when compared to other reference organisms.
-This comparison can also be performed between organisms from multiple job submissions.
-The cork oak data provided highlights that the XPTO component has X more/less proteins annotated in the XPTO BIN when compared with *Arabidopsis thaliana*.
+* **Result tree viewer** - Allows comparison between the number of genes/protein which occupy each Bin for the organism submitted by the user and other reference species. It can serve as a basis to understand if the user input species has more or less genes/proteins annotated in a specific process when compared to other organisms. This comparison can be performed between organisms from multiple job submissions.
 
-The **Result Heatmap viewer** tab presents a different visualization option which yelds the same information as in the tree viewer tab, but only for pairwise proteome comparisons.
+* **Result Heatmap viewer** - Different visualization layout of simmilar information provided in the **Result tree viewer** tab.

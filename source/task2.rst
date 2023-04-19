@@ -24,7 +24,8 @@ Integrating annotated cork oak data in a metabolic pathway of interest
 9. In the Pathway Workflow – Choose Experimental Data Set, select the ``corkoak_DE_001.txt`` file.
 10. Click **Show Pathway** and download the image using **File** -> **Export as Image**, renaming it as ``corkoak_ligninmap.png``.
 
-**Video Guide:**
+Video Guide:
+^^^^^^^^^^^^
 
 .. raw:: html
 

@@ -11,6 +11,12 @@ DiNaR is a tool used to obtain a dynamic representation of a biological data net
 
 |
 
+.. raw:: html
+
+   <iframe width="700" height="400" src="M2_SeasonalGrowth.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+|
+
 Option 1 - Importing a Custom Network into DiNaR
 ------------------------------------------------
 
@@ -108,7 +114,8 @@ After running the script, the ``corkoak_node_ready_to_process.txt`` file should 
    "CFP56_37705", "CFP56_55251", "coexpressed_with", "1", "1", "1", "1", "1"
    "...", "...", "...", "...", "...", "...", "...", "..."
 
-**Video guide for `DiNaR preprocessing subApp <https://nib-si.shinyapps.io/pre-processing/>`_:**
+**Video guide for** `DiNaR preprocessing subApp <https://nib-si.shinyapps.io/pre-processing/>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. raw:: html
 
@@ -152,8 +159,10 @@ The final result should look like this:
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/pCWj5XBvPEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Video guide for `DiNaR App <https://nib-si.shinyapps.io/DiNAR/>`_:**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|
+
+**Video guide for** `DiNaR App <https://nib-si.shinyapps.io/DiNAR/>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. raw:: html
 
