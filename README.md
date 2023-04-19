@@ -3,6 +3,6 @@ A user-friendly interactive tutorial based on cork oak data on the ELIXIR Plant 
 
 https://corkoak-usecase.readthedocs.io/en/latest/.
 
-![image](/CorkOak_UseCase_Page.png)
+![image](/Usecase_page.PNG)
 
 ## Note: This project is under active development
