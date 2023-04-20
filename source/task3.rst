@@ -164,5 +164,4 @@ The final result should look like this:
 
 |
 
-Congratulations, this task concludes the present use-case.
-Further questions or recomendations can be submitted to: `hugo.miguelr99@gmail.com <hugo.miguelr99@gmail.com>`_.
+This concludes Task 3 of the current Use Case. We can now move into the final :ref:`task4-label`.
