@@ -261,5 +261,5 @@ Example of use:
    #Within the command line:
    Rscript Ensembl_Plants_Query.R -g genes.txt -s qsuber -o annotated_genes.csv
 
-This concludes Task 4 of the current Use Case.
-
+Congratulations, this task concludes the present use-case.
+Further questions or recomendations can be submitted to: `hugo.miguelr99@gmail.com <hugo.miguelr99@gmail.com>`_.
