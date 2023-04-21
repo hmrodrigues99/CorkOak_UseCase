@@ -11,6 +11,12 @@ DiNaR is a tool used to obtain a dynamic representation of a biological data net
 
 |
 
+.. raw:: html
+
+   <iframe width="700" height="400" src="images/M2_SeasonalGrowth.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+|
+
 Option 1 - Importing a Custom Network into DiNaR
 ------------------------------------------------
 
