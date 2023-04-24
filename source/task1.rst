@@ -71,7 +71,7 @@ If the input file already had associated descriptions, these are kept in the new
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/KWb1mpFiuOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/zG-bqquA1mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 |
 
