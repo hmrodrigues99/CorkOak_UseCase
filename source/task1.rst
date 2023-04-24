@@ -17,7 +17,7 @@ Annotating biological data using the MapMan Ontology
 2. Select **Sequence Type** → **Protein** (*default*).
 3. In **Upload FASTA file**, click **Choose File** and select the ``corkoak_proteins.faa`` file.
 
-.. figure:: images/corkoak_proteins_mercator_input.PNG
+.. figure:: images/corkoak_proteins_mercator_input.png
    :scale: 25 %
 
    ``corkoak_proteins.faa`` - example of Mercator4 compatible Input (*FASTA File*)
@@ -46,7 +46,7 @@ This is helpful as it provides a first look on which biological processes our qu
   | The **Mercator4 annotated FASTA file** is equal to the input file with the addition of the retrieved annotations in the respective gene/protein headers.
   | In our case, the first entry (protein ID="CFP56_79658") is annotated as a nucleotide sugar transporter \*(URGT/UXT).
 
-.. figure:: images/corkoak_proteins_mercator_output1.PNG
+.. figure:: images/corkoak_proteins_mercator_output1.png
    :scale: 25 %
 
    ``corkoak.fa`` - Example of Mercator4 Annotated *FASTA File*
@@ -56,7 +56,7 @@ If the input file already had associated descriptions, these are kept in the new
 * | **Output 3** 
   | Finally, the **MapMan mapping file** follows a tabular structure compatible with other tools which use the MapMan Ontology.
 
-.. figure:: images/corkoak_proteins_mercator_output2.PNG
+.. figure:: images/corkoak_proteins_mercator_output2.png
    :scale: 25 %
 
    ``corkoak.results`` - Example of Mercator4 Mapping Results (*Text Document*)
