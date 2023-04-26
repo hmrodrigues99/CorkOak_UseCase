@@ -35,7 +35,7 @@ Mercator4 Outputs
   | In the example provided, Mercator4 annotated 45 (A) of the 69 submitted sequences (S), occupying 42 different bins (O).
   | The image shown highlights that most of our sequences are linked with polyamine metabolism, cell wall organization and enzyme classification.
 
-.. figure:: images/corkoak_mercator_bins.png
+.. figure:: images/corkoak_mercator_bins.PNG
    :scale: 80 %
 
    ``corkoak_mercator_bins.PNG`` - Mercator4 % of Occupied Bins
@@ -46,7 +46,7 @@ This is helpful as it provides a first look on which biological processes our qu
   | The **Mercator4 annotated FASTA file** is equal to the input file with the addition of the retrieved annotations in the respective gene/protein headers.
   | In our case, the first entry (protein ID="CFP56_79658") is annotated as a nucleotide sugar transporter \*(URGT/UXT).
 
-.. figure:: images/corkoak_proteins_mercator_output1.PNG
+.. figure:: images/corkoak_proteins_mercator_output1.png
    :scale: 25 %
 
    ``corkoak.fa`` - Example of Mercator4 Annotated *FASTA File*
