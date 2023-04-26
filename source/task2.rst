@@ -44,7 +44,7 @@ Integrating annotated cork oak data in a metabolic pathway of interest
 MapMan Output
 ^^^^^^^^^^^^^
 
-.. figure:: images/corkoak_lignin_mapping.JPG
+.. figure:: images/corkoak_lignin_mapping.jpg
    :scale: 70 %
 
 * **Pathway Interpretation**
