@@ -17,7 +17,7 @@ Annotating biological data using the MapMan Ontology
 2. Select **Sequence Type** → **Protein** (*default*).
 3. In **Upload FASTA file**, click **Choose File** and select the ``corkoak_proteins.faa`` file.
 
-.. figure:: images/corkoak_proteins_mercator_input.PNG
+.. figure:: images/corkoak_proteins_mercator_input.png
    :scale: 25 %
 
    ``corkoak_proteins.faa`` - example of Mercator4 compatible Input (*FASTA File*)
@@ -35,7 +35,7 @@ Mercator4 Outputs
   | In the example provided, Mercator4 annotated 45 (A) of the 69 submitted sequences (S), occupying 42 different bins (O).
   | The image shown highlights that most of our sequences are linked with polyamine metabolism, cell wall organization and enzyme classification.
 
-.. figure:: images/corkoak_mercator_bins.PNG
+.. figure:: images/corkoak_mercator_bins.png
    :scale: 80 %
 
    ``corkoak_mercator_bins.PNG`` - Mercator4 % of Occupied Bins
@@ -56,7 +56,7 @@ If the input file already had associated descriptions, these are kept in the new
 * | **Output 3** 
   | Finally, the **MapMan mapping file** follows a tabular structure compatible with other tools which use the MapMan Ontology.
 
-.. figure:: images/corkoak_proteins_mercator_output2.PNG
+.. figure:: images/corkoak_proteins_mercator_output2.png
    :scale: 25 %
 
    ``corkoak.results`` - Example of Mercator4 Mapping Results (*Text Document*)
