@@ -49,9 +49,15 @@ MapMan Output
 
 * **Pathway Interpretation**
 
-| The generated pathway allows to observe in greater detail what possible steps are our input genes involved regarding specific metabolic pathways of interest in cork oak.
-| In the example shown, our genes of interest, annotated as **PMTs** and **Laccases**, are observed as intervenients in the latter stages of lignin biosynthesis, being all upregulated during the month of July (in contrast to April).
-| This can illustrate the importance of these specific genes and their role during summer (July), as cork oak undergoes higher secondary growth activity in this season, including the further development of lignified tissues in the tree stem and bark (cork layer).
+| The generated pathway illustrates where our query genes are possibly located throughout the several steps of a specified pathway of interest.
+|
+| In the example shown, some cork oak genes of interest are annotated as **PMTs** and **Laccases**, intervenients in the latter stages of lignin biosynthesis. These genes are colored in red, which also indicates their upregulation during summer, based on the supplied experimental data.
+|
+| This visualization can help comprehend the possible role of these genes in cork oak and illustrate their pathway-specific regulation during multiple conditions.
+|
+| In our case, a hint is provided regarding the important upregulation of cork oak genes, such as *CFP56_66243*, *CFP56_46579* and *CFP56_46583*, between others.
+|
+| These putative **PMTs** and **Laccases**, acting on the latter stages of lignin biosynthesis, are relevant as cork oak is known to undergo higher secondary growth activity during the summer season, including the further development of lignified tissues in the tree stem and bark (cork layer).
 
 .. note::
 
