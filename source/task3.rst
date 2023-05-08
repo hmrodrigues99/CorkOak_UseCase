@@ -176,7 +176,7 @@ Creating a dynamic network visualization
 4. After a couple seconds (depending on network size), click **Download dynamic.html**
 5. Open the .html file and click the |start| starting video symbol
 
-.. |start| image:: images/start_symbol.png
+.. |start| image:: images/start_symbol.PNG
 
 * Cork Oak Dynamic Network Visualization:
 
