@@ -16,7 +16,7 @@ Option 1 - Importing a Custom Network into DiNAR with ``Cytoscape_to_Dinar``
 ----------------------------------------------------------------------------
 
 | This option allows the user to provide simple node and edge tables to import into DiNAR. For example, these can be obtained from Cytoscape (access this :ref:`section<cytoscape-label>` to learn how).
-| Additional settings are provided to enrich the network with the ``corkoak.results`` obtained in :ref:`these<task1-label>`, and usefull information from the Ensembl Plants database.
+| Additional settings are provided to enrich the network with the ``corkoak.results`` obtained in :ref:`task1-label`, and usefull information from the Ensembl Plants database.
 
 | For this option, the initial node and edge tables should have the following format(s):
 
