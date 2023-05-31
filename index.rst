@@ -105,7 +105,7 @@ Cork Oak Data Contents:
    List (.csv) of cork oak protein IDs present in the interactions described above.
 
 ``corkoak_LogFC_April``, ``corkoak_LogFC_June``, ``corkoak_LogFC_July`` and ``corkoak_LogFC_July_April``
-   Files containing cork oak experimental data (log2FC values obtained from gene differential expression analysis in cork oak tissue samples collected in the months of April, June and July)
+   Files containing cork oak experimental data (log2FC values obtained from gene differential expression analysis in cork oak tissue samples collected in the months of April, June and July).
 
 ``Cytoscape_to_DiNAR.R``
    R script used to process a Cytoscape network to be imported into DiNAR.
