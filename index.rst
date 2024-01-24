@@ -11,9 +11,9 @@
      "@id": "https://corkoak-usecase.readthedocs.io/en/latest/",
      "@type": "TrainingMaterial",
      "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
-     "description": "Usecase tutorial based on the non-model plant cork oak to facilitate usage and navigation of the ELIXIR Plant Data    Visualization/Orthology service bundle.",
+     "description": "Usecase tutorial based on the non-model plant cork oak to facilitate usage and navigation of the ELIXIR Plant Data Visualization/Orthology service bundle.",
      "keywords": [
-       "plant, non-model, tutorial, usecase, cork, elixir, bundle, mercator, mapman, dinar, ensembl-plants"
+       "plant, non-model, tutorial, usecase, cork, elixir, bundle, mercator, mapman, dinar, ensembl-plants, quercus suber, quercus lobata"
      ],
      "name": "ELIXIR Cork oak Usecase"
    }
@@ -145,6 +145,7 @@ After data download, we are ready to start performing the proposed tasks, starti
    :titlesonly:
 
    source/references
+   source/funding
 
 Indices and tables
 ==================
