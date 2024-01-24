@@ -5,8 +5,9 @@ References
 
 **Plant Data Visualization Tool Bundles**
 
-* **ELIXIR bio.tools** (pending)
-* **Google OpenDocs** (pending)
+* **ELIXIR Plant Data Orthology/Visualization Bundle** - `Overview <https://docs.google.com/document/d/1IhqOSsGswEUeowtA2Y9rIX3I6xmVc9T9OIost4NCG68/edit#heading=h.sg6nxq8mklba>`_
+* **ELIXIR TeSS** - `Materials <https://tess.elixir-europe.org/materials/workshop-on-resources-for-plant-sciences-2023>`_
+* **Increasing Plant Bundle** - `Workshops <https://elixir.mf.uni-lj.si/course/view.php?id=107>`_
 
 **Bundle Tools (cork oak data compatible)**
 
