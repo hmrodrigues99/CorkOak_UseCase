@@ -14,6 +14,6 @@ Funding
 * Pedro Miguel Rodrigues de Barros `(ORCID) <https://www.cienciavitae.pt/portal/pt/661B-B069-AF90>`_
 
 .. figure:: images/biodata_plant.PNG
-   :scale: 30 %
+   :scale: 10 %
 
 |
