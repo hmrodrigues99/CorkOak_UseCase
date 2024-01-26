@@ -5,7 +5,7 @@ References
 
 **Plant Data Visualization Tool Bundles**
 
-* **ELIXIR Plant Data Orthology/Visualization Bundle** - `Overview <https://docs.google.com/document/d/1MBcykonvmhayn9kZXuanGZIFG57dyldeUrYKtzw86y4/edit>`_
+* **ELIXIR Plant Data Orthology/Visualization Bundle** - `Overview <https://docs.google.com/document/d/1MBcykonvmhayn9kZXuanGZIFG57dyldeUrYKtzw86y4/edit?usp=sharing>`_
 * **ELIXIR TeSS** - `Materials <https://tess.elixir-europe.org/materials/workshop-on-resources-for-plant-sciences-2023>`_
 * **Increasing Plant Bundle** - `Workshops <https://elixir.mf.uni-lj.si/course/view.php?id=107>`_
 
