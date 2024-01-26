@@ -10,8 +10,8 @@ Funding
 
 **Authors**
 
-* Hugo Miguel Costa Rodrigues `(ORCID) <https://www.cienciavitae.pt/portal/9B1A-0B97-6A13>`_
-* Pedro Miguel Rodrigues de Barros `(ORCID) <https://www.cienciavitae.pt/portal/pt/661B-B069-AF90>`_
+* Hugo Miguel Costa Rodrigues `(CIÊNCIAVITAE) <https://www.cienciavitae.pt/portal/9B1A-0B97-6A13>`_
+* Pedro Miguel Rodrigues de Barros `(CIÊNCIAVITAE) <https://www.cienciavitae.pt/portal/pt/661B-B069-AF90>`_
 
 .. figure:: images/biodata_plant.PNG
    :scale: 30 %
